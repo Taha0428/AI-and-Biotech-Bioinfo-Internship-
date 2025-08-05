@@ -1,4 +1,4 @@
-setwd("C:/Users/tahaj/Documents/AI_Omics_Internship_2025")
+setwd("C:/Users/tahaj/Documents/AI_biotech_Internship")
 getwd()  # Confirm working directory
 
 dir.create("raw_data")
@@ -26,6 +26,7 @@ data$smoking_binary <- as.factor(data$smoking_binary)
 str(data)
 
 write.csv(data, file = "clean_data/patient_info_clean.csv", row.names = FALSE)
+
 
 
 
