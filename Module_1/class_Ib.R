@@ -27,6 +27,7 @@ str(data)
 
 write.csv(data, file = "clean_data/patient_info_clean.csv", row.names = FALSE)
 
+save.image(file = "AI_Biotech_Workspace.RData")
 
 
 
