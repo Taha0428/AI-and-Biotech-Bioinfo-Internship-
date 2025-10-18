@@ -1,0 +1,9 @@
+Dataset: GSE72267
+Comparison: Parkinson's disease (PD) vs Healthy
+Thresholds: adj.P.Val < 0.05 & |log2FC| > 0.5
+Upregulated genes: 0
+Downregulated genes: 0
+Total significant: 0
+Full DEG table: Results/DEGs_full_table.csv
+Top DEGs: Results/top50_DEGs_all.csv, Up_in_PD.csv, Down_in_PD.csv
+Plots: Result_Plots/volcano_PD_vs_Healthy.png, heatmap_top_DEGs_PD_vs_Healthy.png
